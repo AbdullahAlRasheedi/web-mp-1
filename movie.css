@@ -1,5 +1,5 @@
 body{
-    
+    margin: auto;
 }
 /* header div */
 .top{
@@ -52,6 +52,7 @@ body{
 .left-menu{
     background-color: #31AFD4;
     width: 150px;
+    margin: auto;
     height: 100%;
     font-size: 40px;
     display: flex;
@@ -67,11 +68,10 @@ body{
 /* images */
 .FavoriteMovies{
     background-color: #eddcd2;
-    margin-right:100px ;
+    margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
-    width: 74%;
-    height: 280px;
+    width: 60vw;
 }
 .img{
     width: 250px;
