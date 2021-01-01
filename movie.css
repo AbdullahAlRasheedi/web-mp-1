@@ -20,11 +20,13 @@ body{
     font-size: 40px;
     background-color: #eddcd2;
     width: 150px;
-    text-align: center;
-    padding-top: 40px;
     height: 100px;
     border-radius:50%;
     
+}
+.imgLogo{
+    width: 150px;
+    height: 100px;
 }
 .linkTop{
     color: white;
