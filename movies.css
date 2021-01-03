@@ -1,0 +1,167 @@
+body{
+    margin: auto;
+}
+/* header div */
+.top{
+    background-color: #004FFF;
+    display: flex;
+   
+}
+.top-menu{
+    font-size: 40px;
+    background-color: #004FFF;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo{
+    font-size: 40px;
+    background-color: #004FFF;
+    width: 150px;
+    height: 100px;
+    border-radius:50%;
+    
+}
+.imgLogo{
+    width: 150px;
+    height: 100px;
+}
+.linkTop{
+    color: white;
+}
+/* huage links */
+.link{
+    text-decoration: none;
+    margin-top: 15px;
+}
+/* Small links */
+.linkRating{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 6px;
+    color: black;
+}
+/* main div to hold iteme in body */
+.super{
+    display: flex;
+}
+.left-menu{
+    background-color: #31AFD4;
+    width: 150px;
+    height: 100%;
+    font-size: 40px;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    flex-direction: column;
+}
+.display{
+    background-color: #eddcd2;
+    width: 100%;
+    height:150vh;
+
+}
+/* images */
+.FavoriteMovies{
+    background-color: #eddcd2;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 65vw;
+    height: 60vh;
+    background-color: #eddcd2;
+}
+.img{
+    width: 250px;
+    height: 325px;
+    position: relative;
+}
+/* div behend images */
+.frame{
+    position: relative;
+}
+/* descrbtion movies */
+.descrbtion{
+    position: absolute;
+    top:1px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.descrbtion:hover{
+    opacity: 1;
+    transform: translate(0,-30px);
+}
+/* main title for website */
+.title{
+    margin-left: 90px;
+    font-size: 50px;
+    margin-bottom:50px;
+    margin-top: 150px
+}
+/* movies title */
+#title{
+    text-align: center;
+    padding-top:10px
+}
+/* descrbtion movies */
+.detale{
+    text-align: center;
+}
+
+/* left links */
+#more{
+    text-decoration: none;
+    padding-left: 80px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 255, 34);
+}
+
+/* drop menu */
+.top-menu ul{
+    list-style: none;
+    margin-top: 2%;
+    margin: 0 auto;
+    z-index: 5;
+    
+}
+.top-menu ul li{
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    font-size: 40px;
+    position: relative;
+    
+
+}
+.top-menu ul li:hover{
+    text-decoration: white;
+    transform: scale(1.1);
+    color: black;
+    
+}
+.top-menu ul ul{
+    display: none;
+}
+.top-menu .dropMenuUL .dropMenuLI:hover > .innerDropMenu{
+    display: block;
+    
+}
+.headerLinks{
+    position: absolute;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+}
